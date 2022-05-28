@@ -1,0 +1,48 @@
+@font-face {
+    font-family:"blackjack";
+    src: url('fonts/blackjack.otf');
+}
+
+*{
+    background-color: antiquewhite;
+}
+
+header{
+    background-color: white;
+    border-style: solid;
+    border-color: brown;
+    border-width: 3px;
+}
+header nav li{
+    display: inline-block;
+    height: 20px;
+    width: 70px;
+    border: 2px solid;
+    background-color: rgb(216, 145, 58);
+
+}
+a{
+    text-decoration: none;
+}
+h1{
+    color: black;
+    letter-spacing: 4px;
+    word-spacing: 10px;
+    text-align: center;
+    text-shadow: 2px 3px grey  ;
+    text-transform: uppercase;
+    font-family: 'Poppins';
+}
+h2{
+    color: brown;
+    text-decoration: underline;
+    font-family:'blackjack';
+}
+
+footer{
+    background-color: rgb(189, 235, 220);
+}
+img{
+    height: 200px;
+    width: 200px;
+}
