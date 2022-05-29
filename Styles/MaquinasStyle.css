@@ -4,7 +4,8 @@
 }
 
 *{
-    background-color: antiquewhite;
+    
+    margin: 2%;
 }
 
 header{
@@ -24,25 +25,33 @@ header nav li{
 a{
     text-decoration: none;
 }
+
 h1{
-    color: black;
-    letter-spacing: 4px;
-    word-spacing: 10px;
-    text-align: center;
-    text-shadow: 2px 3px grey  ;
-    text-transform: uppercase;
-    font-family: 'Poppins';
-}
-h2{
     color: brown;
     text-decoration: underline;
     font-family:'blackjack';
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+
+.caja{
+    background-color: beige;
+    height: 75vh;
+    width: 75vw;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.cajita{
+    width: 40% ;
+    height: 40%;
+    background-color: rgb(207, 156, 81);
+    border:1px solid rgb(119, 6, 6);
 }
 
 footer{
     background-color: rgb(189, 235, 220);
 }
-img{
-    height: 200px;
-    width: 200px;
-}
+
